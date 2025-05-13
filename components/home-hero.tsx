@@ -9,7 +9,7 @@ export function HomeHero() {
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter text-white sm:text-5xl xl:text-6xl/none">Farmtri</h1>
+                <h1 className="text-3xl font-bold tracking-tighter text-white sm:text-5xl xl:text-6xl/none">Terra</h1>
                 <p className="max-w-[600px] text-white md:text-xl">
                   Empowering Southeast Asian farmers to sell their produce directly to customers and improve their
                   yields.

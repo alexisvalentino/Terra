@@ -68,7 +68,7 @@ export function MainNav() {
           {/* Desktop logo and navigation */}
           <div className="hidden md:flex md:flex-1 items-center">
             <Link href="/" className="mr-6 flex items-center space-x-2">
-              <span className="font-bold text-xl text-green-600">Farmtri</span>
+              <span className="font-bold text-xl text-green-600">Terra</span>
             </Link>
             <nav className="flex items-center space-x-6 text-sm font-medium">
               {routes.map((route) => (
@@ -103,7 +103,7 @@ export function MainNav() {
                 className="flex items-center gap-2 text-lg font-semibold text-green-600 mb-8"
                 onClick={() => setIsOpen(false)}
               >
-                Farmtri
+                Terra
               </Link>
               <nav className="flex flex-col gap-4">
                 {routes.map((route) => (
@@ -127,7 +127,7 @@ export function MainNav() {
           {/* Mobile logo (centered) */}
           <div className="flex md:hidden flex-1 justify-center">
             <Link href="/" className="font-bold text-xl text-green-600">
-              Farmtri
+              Terra
             </Link>
           </div>
 

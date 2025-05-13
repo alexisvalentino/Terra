@@ -33,7 +33,7 @@ export function ValueProposition() {
     <div className="bg-muted py-12">
       <div className="container px-4 md:px-6">
         <div className="text-center mb-10">
-          <h2 className="text-3xl font-bold mb-4">Why Farmtri Works</h2>
+          <h2 className="text-3xl font-bold mb-4">Why Terra Works</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Our platform combines direct marketplace access with AI-powered tools to help farmers succeed
           </p>

@@ -9,7 +9,7 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Farmtri - For Southeast Asian Farmers",
+  title: "Terra - For Southeast Asian Farmers",
   description: "Connect directly with customers and improve your yields",
     generator: 'v0.dev'
 }

@@ -21,7 +21,7 @@ export function HomeScreen() {
       // Show welcome toast
       setTimeout(() => {
         toast({
-          title: "Welcome to Farmtri!",
+          title: "Welcome to Terra!",
           description: "Your farming companion app is ready to use.",
         })
       }, 1000)
@@ -33,7 +33,7 @@ export function HomeScreen() {
       {/* Header */}
       <div className="bg-green-600 p-4 text-white">
         <div className="flex items-center justify-between">
-          <h1 className="text-xl font-bold">Farmtri</h1>
+          <h1 className="text-xl font-bold">Terra</h1>
           <div className="flex items-center space-x-2">
             <select className="text-sm bg-green-500 text-white border-none rounded px-2 py-1">
               <option>Bahasa</option>
@@ -91,7 +91,7 @@ export function HomeScreen() {
           onClick={() => setShowWelcome(false)}
         >
           <div className="bg-white p-6 rounded-lg max-w-xs mx-4" onClick={(e) => e.stopPropagation()}>
-            <h3 className="text-xl font-bold text-green-700 mb-2">Welcome to Farmtri!</h3>
+            <h3 className="text-xl font-bold text-green-700 mb-2">Welcome to Terra!</h3>
             <p className="mb-4">
               Your farming companion app is here to help you sell crops directly and improve your yields.
             </p>
